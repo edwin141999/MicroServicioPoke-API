@@ -3,7 +3,7 @@ const express = require('express');
 const Pokedex = require('pokeapi-js-wrapper');
 const P = new Pokedex.Pokedex();
 const app = express();
-const port = 3000;
+const port = 5000;
 
 // ROUTER
 app.get('/:pokemon', async (req, res) => {
